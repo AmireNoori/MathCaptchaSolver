@@ -57,10 +57,9 @@ An example of captchas used in this project:
 The deep learning model used in this tool: It is `TrOCR (large-sized model, fine-tuned on SROIE)`, which you can download from the link [https://huggingface.co/microsoft/trocr-large-printed](https://huggingface.co/microsoft/trocr-large-printed) and read about it.
 The TrOCR model is an encoder-decoder model, consisting of an image Transformer as encoder, and a text Transformer as decoder.
 Python language and opecv library
-* ![huggingface.co](images/huggingface.png =100x)
-* ![opencv.org](images/opencv.png =100x)
-* ![www.python.org](images/python.png)
-
+* (https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-with-title.png)
+* (https://opencv1.b-cdn.net/wp-content/uploads/2020/07/OpenCV_logo_black-2.png)
+* (https://www.python.org/static/community_logos/python-logo.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
