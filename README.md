@@ -142,7 +142,7 @@ This tool is written in the form of a library that you can easily import and use
 
 _Create a `main.py` file and enter the following codes in it._
 
-* Examples
+* Example
   ```sh
   from MathCaptchaSolver import CaptchaSolver
   solver = CaptchaSolver('Your captcha Image path') # Enter captcha Image path
