@@ -3,7 +3,7 @@
     <img src="images/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">َAmir Noori - Math Captcha Solver</h3>
+  <h3 align="center">Math Captcha Solver</h3>
 
   <p align="center">
     A great tool for solving math captchas !
@@ -57,9 +57,9 @@ An example of captchas used in this project:
 The deep learning model used in this tool: It is `TrOCR (large-sized model, fine-tuned on SROIE)`, which you can download from the link [https://huggingface.co/microsoft/trocr-large-printed](https://huggingface.co/microsoft/trocr-large-printed) and read about it.
 The TrOCR model is an encoder-decoder model, consisting of an image Transformer as encoder, and a text Transformer as decoder.
 Python language and opecv library
-* ![Hugging face][huggingface.co](https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-with-title.png)
-* ![Open CV][opencv.org](https://opencv1.b-cdn.net/wp-content/uploads/2020/07/OpenCV_logo_black-2.png)
-* ![Python][www.python.org](https://www.python.org/static/community_logos/python-logo.png)
+* ![Hugging face][huggingface.co](images/huggingface.png)
+* ![Open CV][opencv.org](images/opencv.png)
+* ![Python][www.python.org](images/python.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -85,7 +85,7 @@ And finally, we used the crop technique to save two numbers separately with the 
 
 Now we have three pictures, two numbers and a math symbol :
 
-![left number](images/left_number.jpg)    ![right number](images/right_number.jpg)    ![sign](images/sign.jpg)
+![left number](images/left_number.jpg)                         ![right number](images/right_number.jpg)                             ![sign](images/sign.jpg)
 
 
 Next, according to the extracted numbers in the image, the function performs the subtraction or addition operation and returns the answer to us.
