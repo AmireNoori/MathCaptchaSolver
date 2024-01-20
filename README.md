@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/AmireNoori/MathCaptchaSolver">
-    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="images/logo.jpg" alt="Logo" width="160" height="160">
   </a>
 
   <h3 align="center">Math Captcha Solver</h3>
@@ -9,7 +9,6 @@
     A great tool for solving math captchas !
   </p>
 </div>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -37,8 +36,6 @@
 </details>
 
 
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 This project is a tool to process mathematical captcha images and calculate the answer using deep learning models and image processing using Python language.
@@ -46,10 +43,6 @@ This project is a tool to process mathematical captcha images and calculate the 
 An example of captchas used in this project:
 
 ![captcha example](images/captcha-example.jpg)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -60,9 +53,6 @@ Python language and opecv library
 * https://huggingface.co
 * https://opencv.org
 * https://www.python.org
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## How it processes
 
@@ -84,7 +74,7 @@ And finally, we used the crop technique to save two numbers separately with the 
 
 Now we have three pictures, two numbers and a math symbol :
 
-![left number](images/left_number.jpg)                         ![right number](images/right_number.jpg)                             ![sign](images/sign.jpg)
+![left number](images/left_number.jpg) ![sign](images/sign.jpg) ![right number](images/right_number.jpg)   
 
 
 Next, according to the extracted numbers in the image, the function performs the subtraction or addition operation and returns the answer to us.
@@ -130,7 +120,6 @@ This case happens very rarely and the tool detects the numbers correctly in most
 * Execution Time
 Captcha processing and calculation time in a system without GPU is between `16` seconds and `20` seconds from the time of execution to the end time, which is much less in systems with GPU and the processing speed is faster.
 
-
 ### Installation
 
 1. Clone the repo
@@ -168,18 +157,10 @@ _Create a `main.py` file and enter the following codes in it._
 _Note: When you run the program for the first time, your system must be connected to the Internet to download the model from the Hugging Face website and it may take some time to run the program for the first time._
 ## Examples
 
-
 This screenshot is an example of the results obtained from the 20 captcha images shared for you
 <div align="center">
     <img src="images/examples.jpg" alt="screenshot">
 </div>
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## License
 
@@ -211,19 +192,11 @@ SOFTWARE.
 
 © [Amir Noori](https://github.com/AmireNoori)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
 ## Contact
 
 Amir Noori - [@AmireNoori1](https://t.me/AmireNoori1) - noorifardam@gmail.com
 
 Project Link: [https://github.com/AmireNoori/MathCapthaSolver](https://github.com/AmireNoori/MathCaptchaSolver)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Kindness
 
