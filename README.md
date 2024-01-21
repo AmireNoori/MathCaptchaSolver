@@ -85,7 +85,10 @@ The output of the tool is in 3 different types.
 
 Example:
 
-![captcha example](images/captcha-1.jpg)
+<div align="center">
+    <img src="images/captcha-1.jpg" alt="captcha example">
+</div>
+
 
 * Output
   ```sh
@@ -98,7 +101,10 @@ This output is displayed when the tool is able to recognize the numbers, but des
 
 Example:
 
-![captcha example](images/captcha-2.jpg)
+<div align="center">
+    <img src="images/captcha-2.jpg" alt="captcha example">
+</div>
+
 
 * Output
   ```sh
@@ -110,7 +116,11 @@ Example:
 This output is displayed when the tool is not able to recognize one of the two numbers and as a result could not calculate the numbers together.
 This case happens very rarely and the tool detects the numbers correctly in most cases, but it may still show you such an output.
 
-![captcha example](images/captcha-3.jpg)
+
+<div align="center">
+    <img src="images/captcha-3.jpg" alt="captcha example">
+</div>
+
 
 * Output
   ```sh
