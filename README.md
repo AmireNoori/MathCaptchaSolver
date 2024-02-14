@@ -142,7 +142,7 @@ Captcha processing and calculation time in a system without GPU is between `16` 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/AmireNoori/MathCaptchaSolver
+   git clone https://github.com/AmireNoori/MathCaptchaSolver/tree/main
    ```
 
 You must have installed `transformers`, `opencv-python` and `numpy` libraries. For this, you can install each of them separately or install this tool using the `requirements.txt` file by entering the following command in the terminal.
