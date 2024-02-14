@@ -1,28 +1,10 @@
-<div align="center">
-  <a href="https://github.com/AmireNoori/MathCaptchaSolver">
-    <img src="images/logo.jpg" alt="Logo" width="160" height="160">
-  </a>
-
-  <h3 align="center">Math Captcha Solver</h3>
-
-  <p align="center">
-    A great tool for solving math captchas !
-  </p>
-</div>
-
-
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
-      <a href="#How-it-processes">How it processes</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
       </ul>
@@ -30,119 +12,24 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#kindness">Kindness</a></li>
-
   </ol>
 </details>
 
 
 ## About The Project
 
-This project is a tool to process mathematical captcha images and calculate the answer using deep learning models and image processing using Python language.
+![captcha example](images/captcha-example.png)
 
-An example of captchas used in this project:
+This type of captcha is very similar to the captcha in [MathCaptchaSolver](https://github.com/AmireNoori/MathCaptchaSolver) main branch.
+So if you want to know more about the details of the project, refer to this link:
 
-![captcha example](images/captcha-example.jpg)
-
-If you are looking for solving captchas of the following types:
-
-![captcha example](images/other-type.png)
-
-go to this repo:
-
-[MathCaptchaSolver](https://github.com/AmireNoori/MathCaptchaSolver-v2)
-
-
-### Built With
-
-The deep learning model used in this tool: It is `TrOCR (large-sized model, fine-tuned on SROIE)`, which you can download from the link [https://huggingface.co/microsoft/trocr-large-printed](https://huggingface.co/microsoft/trocr-large-printed) and read about it.
-The TrOCR model is an encoder-decoder model, consisting of an image Transformer as encoder, and a text Transformer as decoder.
-Python language and opecv library
-* https://huggingface.co
-* https://opencv.org
-* https://www.python.org
-
-## How it processes
-
-The processing of numbers and signs in the image is performed by the powerful model that I introduced above. But to process this type of captcha images, this model alone was not able to correctly extract the numbers and calculate the operation. So we had to use image processing to improve the result.
-
-* First, let's see what will be returned if we give the complete captcha image to the model:
-
-![captcha example](images/first-cap.jpg)
-
-* Output
-  ```sh
-  [{'generated_text': '40 % & @'}]
-  ```
-
-As you can see, the output returned to us is `40 % & @`, which is not a very good result.
-
-So we first used morphological operations to erode the image and erase the extra lines to some extent, then we gave the image a more normal state using the blur method.
-And finally, we used the crop technique to save two numbers separately with the sign between them with fixed coordinates of each number in all captcha images.
-
-Now we have three pictures, two numbers and a math symbol :
-
-![left number](images/left_number.jpg) ![sign](images/sign.jpg) ![right number](images/right_number.jpg)   
-
-
-Next, according to the extracted numbers in the image, the function performs the subtraction or addition operation and returns the answer to us.
-
-The output of the tool is in 3 different types.
-
-* 1-The first type of output is an `integer` that is the sum or subtraction of two numbers.this output is displayed when the math sign is correctly recognized
-
-Example:
-
-<div align="center">
-    <img src="images/captcha-1.jpg" alt="captcha example">
-</div>
-
-
-* Output
-  ```sh
-  99
-  ```
-
-* 2-The second type of output is a `list` containing two numbers.
-
-This output is displayed when the tool is able to recognize the numbers, but despite the possible filters that have been set for the sign, it is not able to recognize the sign and is forced to add or subtract the numbers together, and the list it displays is the total result.you can test both answers in the input according to the output of the tool
-
-Example:
-
-<div align="center">
-    <img src="images/captcha-2.jpg" alt="captcha example">
-</div>
-
-
-* Output
-  ```sh
-  [3, 19]
-  ```
-
-* 3-The third type of output is `None`.
-
-This output is displayed when the tool is not able to recognize one of the two numbers and as a result could not calculate the numbers together.
-This case happens very rarely and the tool detects the numbers correctly in most cases, but it may still show you such an output.
-
-
-<div align="center">
-    <img src="images/captcha-3.jpg" alt="captcha example">
-</div>
-
-
-* Output
-  ```sh
-  None
-  ```
-
-* Execution Time
-Captcha processing and calculation time in a system without GPU is between `16` seconds and `20` seconds from the time of execution to the end time, which is much less in systems with GPU and the processing speed is faster.
+[MathCaptchaSolver](https://github.com/AmireNoori/MathCaptchaSolver)
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/AmireNoori/MathCaptchaSolver
+   git clone https://github.com/AmireNoori/MathCaptchaSolver-v2
    ```
 
 You must have installed `transformers`, `opencv-python` and `numpy` libraries. For this, you can install each of them separately or install this tool using the `requirements.txt` file by entering the following command in the terminal.
@@ -177,7 +64,7 @@ _Note: When you run the program for the first time, your system must be connecte
 
 This screenshot is an example of the results obtained from the 20 captcha images shared for you
 <div align="center">
-    <img src="images/examples.jpg" alt="screenshot">
+    <img src="images/results.jpg" alt="screenshot">
 </div>
 
 ## License
@@ -215,7 +102,3 @@ SOFTWARE.
 Amir Noori - [@AmireNoori1](https://t.me/AmireNoori1) - noorifardam@gmail.com
 
 Project Link: [https://github.com/AmireNoori/MathCapthaSolver](https://github.com/AmireNoori/MathCaptchaSolver)
-
-## Kindness
-
-Thank you if this tool was useful for you and you used it, give it a star ⭐ and make me happy by following my profile❤️.
