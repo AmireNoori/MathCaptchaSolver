@@ -48,7 +48,7 @@ If you are looking for solving captchas of the following types:
 
 ![captcha example](images/other-type.png)
 
-go to this repo:
+go to this branch:
 
 [MathCaptchaSolver-v2](https://github.com/AmireNoori/MathCaptchaSolver/tree/v2)
 
