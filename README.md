@@ -50,7 +50,7 @@ If you are looking for solving captchas of the following types:
 
 go to this repo:
 
-[MathCaptchaSolver](https://github.com/AmireNoori/MathCaptchaSolver-v2)
+[MathCaptchaSolver-v2](https://github.com/AmireNoori/MathCaptchaSolver/tree/v2)
 
 
 ### Built With
