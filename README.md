@@ -29,7 +29,7 @@ So if you want to know more about the details of the project, refer to this link
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/AmireNoori/MathCaptchaSolver-v2
+   git clone https://github.com/AmireNoori/MathCaptchaSolver/tree/v2
    ```
 
 You must have installed `transformers`, `opencv-python` and `numpy` libraries. For this, you can install each of them separately or install this tool using the `requirements.txt` file by entering the following command in the terminal.
