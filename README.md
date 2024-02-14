@@ -44,6 +44,14 @@ An example of captchas used in this project:
 
 ![captcha example](images/captcha-example.jpg)
 
+If you are looking for solving captchas of the following types:
+
+![captcha example](images/other-type.png)
+
+go to this repo:
+
+[MathCaptchaSolver](https://github.com/AmireNoori/MathCaptchaSolver-v2)
+
 
 ### Built With
 
