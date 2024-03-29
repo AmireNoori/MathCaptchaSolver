@@ -58,7 +58,7 @@ If you are looking for solving captchas of the following types:
 
 go to this repo:
 
-[SVG Captcha Solver](https://github.com/AmireNoori/SVG-Captcha_Solver)
+[SVG Captcha Solver](https://github.com/AmireNoori/SVG-Captcha-Solver)
 
 
 ### Built With
