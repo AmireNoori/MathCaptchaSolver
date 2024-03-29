@@ -52,6 +52,14 @@ go to this branch:
 
 [MathCaptchaSolver-v2](https://github.com/AmireNoori/MathCaptchaSolver/tree/v2)
 
+If you are looking for solving captchas of the following types:
+
+![captcha example](images/captcha-example4.jpg)
+
+go to this repo:
+
+[MathCaptchaSolver-v2](https://github.com/AmireNoori/SVG-Captcha_Solver)
+
 
 ### Built With
 
