@@ -60,6 +60,13 @@ go to this repo:
 
 [SVG Captcha Solver](https://github.com/AmireNoori/SVG-Captcha-Solver)
 
+If you are looking for solving captchas of the following types:
+
+![captcha example](images/persian-cap.jpg)
+
+go to this repo:
+
+[Persian Captcha Solver](https://github.com/AmireNoori/PersianCaptchaSolver)
 
 ### Built With
 
