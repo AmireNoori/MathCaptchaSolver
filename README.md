@@ -46,6 +46,12 @@ An example of captchas used in this project:
 
 If you are looking for solving captchas of the following types:
 
+![captcha example](images/math-captcha2.jpg)
+
+Message me on Telegram : [@AmireNoori1](https://t.me/AmireNoori1)
+
+If you are looking for solving captchas of the following types:
+
 ![captcha example](images/other-type.png)
 
 go to this branch:
