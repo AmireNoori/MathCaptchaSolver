@@ -46,7 +46,7 @@ An example of captchas used in this project:
 
 If you are looking for solving captchas of the following types:
 
-<img src="images/math-captcha2.jpg" alt="captcha example" width="300">
+<img src="images/math-captcha2.jpg" alt="captcha example" width="150">
 
 Message me on Telegram : [@AmireNoori1](https://t.me/AmireNoori1)
 
