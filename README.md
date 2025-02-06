@@ -31,6 +31,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#kindness">Kindness</a></li>
+    <li><a href="#collection">Collections</a></li>
 
   </ol>
 </details>
@@ -77,10 +78,6 @@ go to this repo:
 [Persian Captcha Solver](https://github.com/AmireNoori/PersianCaptchaSolver)
 
 
-If the captcha you are looking for is not among the pictures above, below are other examples of captchas that I designed as a captcha solver. To get any of the captcha solvers, you can send a message to my pv in Telegram.
-
-<img src="images/other-types1.jpg" alt="captcha example"> <img src="images/other-types2.png" alt="captcha example"> <img src="images/other-types3.jpg" alt="captcha example" style="margin-right: 10px;">
-<img src="images/other-types4.jpg" alt="captcha example" style="margin-right: 10px;"><img src="images/other-types5.jpg" alt="captcha example" style="margin-right: 10px;">
 
 go to this repo:
 
@@ -212,6 +209,13 @@ This screenshot is an example of the results obtained from the 20 captcha images
 <div align="center">
     <img src="images/examples.jpg" alt="screenshot">
 </div>
+
+
+## Collections
+If the captcha you are looking for is not among the pictures above, below are other examples of captchas that I designed as a captcha solver. To get any of the captcha solvers, you can send a message to my pv in Telegram.
+
+<img src="images/other-types1.jpg" alt="captcha example"> <img src="images/other-types2.png" alt="captcha example"> <img src="images/other-types3.jpg" alt="captcha example" style="margin-right: 10px;">
+<img src="images/other-types4.jpg" alt="captcha example" style="margin-right: 10px;"><img src="images/other-types5.jpg" alt="captcha example" style="margin-right: 10px;">
 
 ## License
 
