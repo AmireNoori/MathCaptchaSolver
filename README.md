@@ -31,7 +31,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#kindness">Kindness</a></li>
-    <li><a href="#collection">Collections</a></li>
+    <li><a href="#collections">Collections</a></li>
 
   </ol>
 </details>
