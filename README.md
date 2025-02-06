@@ -76,6 +76,16 @@ go to this repo:
 
 [Persian Captcha Solver](https://github.com/AmireNoori/PersianCaptchaSolver)
 
+
+If the captcha you are looking for is not among the pictures above, below are other examples of captchas that I designed as a captcha solver. To get any of the captcha solvers, you can send a message to my pv in Telegram.
+
+<img src="images/other-types1.jpg" alt="captcha example"> <img src="images/other-types2.png" alt="captcha example"> <img src="images/other-types3.jpg" alt="captcha example" style="margin-right: 10px;">
+<img src="images/other-types4.jpg" alt="captcha example" style="margin-right: 10px;"><img src="images/other-types5.jpg" alt="captcha example" style="margin-right: 10px;">
+
+go to this repo:
+
+[Persian Captcha Solver](https://github.com/AmireNoori/PersianCaptchaSolver)
+
 ### Built With
 
 The deep learning model used in this tool: It is `TrOCR (large-sized model, fine-tuned on SROIE)`, which you can download from the link [https://huggingface.co/microsoft/trocr-large-printed](https://huggingface.co/microsoft/trocr-large-printed) and read about it.
